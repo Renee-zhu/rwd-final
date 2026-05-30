@@ -60,16 +60,94 @@ table {
     justify-content:space-between;
     align-items:center;
 }
-.leftBox img{
+.leftLogoNav img{
     height:28px;
     width:123px;
 }
-.rightnav a{
+.rightNav a{
     width: 412px;
     font-size: 16px;
     margin:16px 18px;
-}
-a{
-    text-decoration:none;
+     text-decoration:none;
     color:gray;
+}
+
+.indexbox{
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.indexLeftText{
+    width: 526px;
+    height: 376px;
+    
+}
+.topText{
+    height: 280px;
+}
+.topText p{
+    font-size: 16px;
+    color:rgb(88, 88, 88);
+}
+.bottomText{
+    height: 48px;
+}
+.bottomText a{
+    width:113px;
+    height: 48px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding:12px 24px;
+    border-radius: 35px;
+    margin-right: 18px;
+    text-decoration:none;
+}
+.bottomText a:hover{
+    background-color: rgb(76, 76, 76);
+    color:rgb(255, 255, 255);
+}
+.indexRightPicture img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-size: 80px;
+    height: 192px;
+    width: 526px;
+}
+.services{
+    width: 100%;
+    height: 494px;
+    background-color: #24140B;
+    display:flex;
+    align-items:center;
+}
+.services2{
+    width:80%;
+    height:334px;
+    margin:0 auto;
+}
+.services2 .topText{
+    height: 120px;
+}
+.services2 .bottomText{
+    height: 174px;
+}
+.services2 .topText p{
+    color:white;
+    font-size: 24px;
+}
+.services2 .topText h2{
+    color:white;
+    font-size: 96px;
+}
+.services2 .bottomText li{
+    background-color: white;
+    width: 25%;
+    height: 35px;
+}
+.listTop p{
+    font-size: 16px;
 }
