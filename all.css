@@ -3,197 +3,325 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
+/*start*/
 
-.wrap{
-    max-width:100%;
+.wrap {
+    max-width: 100%;
 }
-.header{
-    width:80%;
-    margin:0 auto;
+
+.header {
+    width: 80%;
+    margin: 0 auto;
 }
-.nav{
+
+.nav {
     height: 80px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.leftLogoNav img{
-    height:28px;
-    width:123px;
+
+.leftLogoNav img {
+    height: 28px;
+    width: 123px;
 }
-.rightNav a{
+
+.rightNav a {
     width: 412px;
     font-size: 16px;
-    margin:16px 18px;
-     text-decoration:none;
-    color:gray;
+    margin: 16px 18px;
+    text-decoration: none;
+    color: gray;
 }
 
-.indexbox{
+.indexbox {
     max-width: 100%;
     height: auto;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.indexLeftText{
+
+.indexLeftText {
     width: 526px;
     height: 376px;
-    
+
 }
-.topText{
+
+.topText {
     height: 280px;
 }
-.topText p{
+
+.topText p {
     font-size: 16px;
-    color:rgb(88, 88, 88);
+    color: rgb(88, 88, 88);
 }
-.bottomText{
+
+.bottomText {
     height: 48px;
 }
-.bottomText a{
-    width:113px;
+
+.bottomText a {
+    width: 113px;
     height: 48px;
     font-size: 16px;
     border: 1px solid black;
-    padding:12px 24px;
+    padding: 12px 24px;
     border-radius: 35px;
     margin-right: 18px;
-    text-decoration:none;
+    text-decoration: none;
 }
-.bottomText a:hover{
+
+.bottomText a:hover {
     background-color: rgb(76, 76, 76);
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
-.indexRightPicture img{
+
+.indexRightPicture img {
     width: 100%;
     height: auto;
 }
-h1{
+
+h1 {
     font-size: 80px;
     height: 192px;
     width: 526px;
 }
-.services{
+
+.services {
     width: 100%;
     height: 494px;
     background-color: #24140B;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
-.services2{
-    width:80%;
-    height:334px;
-    margin:0 auto;
+
+.services2 {
+    width: 80%;
+    height: 334px;
+    margin: 0 auto;
 }
-.services2 .topText{
+
+.services2 .topText {
     height: 120px;
 }
-.services2 .bottomText{
+
+.services2 .bottomText {
     height: 174px;
 }
-.services2 .topText p{
-    color:white;
+
+.services2 .topText p {
+    color: white;
     font-size: 24px;
 }
-.services2 .topText h2{
-    color:white;
+
+.services2 .topText h2 {
+    color: white;
     font-size: 96px;
 }
-.services2 .bottomText li{
+
+.services2 .bottomText li {
     background-color: white;
     width: 24%;
     height: 150px;
-    display:flex;
-    justify-content:center;
-flex-direction:column;
-  
-}
-.services2 .bottomText ul{
-    display:flex;
-    justify-content:space-between;
-}
-.listTop{
-   width: 306px;
-height: 174;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 
 }
-.listTop .listbox1{
-   width: 258px;
-   height: 66px;
+
+.services2 .bottomText ul {
+    display: flex;
+    justify-content: space-between;
 }
-.listTop .listbox2{
+
+.listTop {
+    width: 306px;
+    height: 174;
+
+}
+
+.listTop .listbox1 {
+    width: 258px;
+    height: 66px;
+}
+
+.listTop .listbox2 {
     width: 258px;
     height: 48px;
 }
-.listTop p{
+
+.listTop p {
     font-size: 16px;
+    color: rgb(65, 65, 65);
 }
-.listTop .listbox1 ,.listbox2{
-    display:flex;
-    justify-content:space-between;
+
+.listTop .listbox1,
+.listbox2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
 }
-.listTop .listbox1 .p1{
+
+.listTop p {
+    padding-left: 12px;
+}
+
+.listTop .listbox1 .p1 {
     font-family: Noto Sans;
-font-weight: 700;
-font-style: Bold;
-font-size: 28px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 2%;
-vertical-align: middle;
-}   
-.listTop .listbox1 .p2{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+.listTop .listbox1 .p2 {
     font-family: Noto Sans;
-font-weight: 700;
-font-style: Bold;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 2%;
-vertical-align: middle;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+.listTop .listbox2 p {
+    font-size: small;
+    width: 198px;
 }
