@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 .wrap{
     max-width:100%;
 }
@@ -145,9 +146,54 @@ h1{
 }
 .services2 .bottomText li{
     background-color: white;
-    width: 25%;
-    height: 35px;
+    width: 24%;
+    height: 150px;
+    display:flex;
+    justify-content:center;
+flex-direction:column;
+  
+}
+.services2 .bottomText ul{
+    display:flex;
+    justify-content:space-between;
+}
+.listTop{
+   width: 306px;
+height: 174;
+
+}
+.listTop .listbox1{
+   width: 258px;
+   height: 66px;
+}
+.listTop .listbox2{
+    width: 258px;
+    height: 48px;
 }
 .listTop p{
     font-size: 16px;
+}
+.listTop .listbox1 ,.listbox2{
+    display:flex;
+    justify-content:space-between;
+}
+.listTop .listbox1 .p1{
+    font-family: Noto Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 2%;
+vertical-align: middle;
+}   
+.listTop .listbox1 .p2{
+    font-family: Noto Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 2%;
+vertical-align: middle;
 }
