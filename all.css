@@ -71,12 +71,18 @@ body * > * {
     height: 32px;
 }
 .header{
- display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.healeftbox{
+    width:480px;
+    height: 376px;
 }
 .healeft{
-    width: 35%;
+    width: 526px;
+    height:376px;
 }
 .healefta{
     display:flex;
@@ -91,6 +97,9 @@ body * > * {
 }
 .healeft h1{
     font-size: 80px;
+}
+.healeftimg{
+    width: 746px;
 }
 .healeftimg img{
     width: 100%;
