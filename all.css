@@ -46,3 +46,48 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*START*/
+body * > * {
+  border: 1px solid #494949;
+}
+.wrap{
+    width:85%;
+}
+/*header*/
+.header{
+    width:85%;
+    margin:0 auto;
+}
+.hea1Box1{
+    width:1000px;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.hea1List1 ul{
+    width:412px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+a{
+    text-decoration:none;
+    color:#535353;
+}
+.hea2Box1{
+    width:80%;
+    margin:0 auto;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+}
+.heaB1Box2{
+    width:50%;
+}
+.heaB1pic2{
+    width: 50%;
+}
+.heaB1pic2 img{
+    width:100%;
+    height:100%;
+}
