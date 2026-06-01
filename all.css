@@ -47,9 +47,9 @@ table {
 	border-spacing: 0;
 }
 /*START*/
-body * > * {
-  border: 1px solid #494949;
-}
+
+* { outline: 1px solid rgb(255, 0, 0); }
+
 .wrap{    
     max-width:1296px;
     margin: auto;
@@ -113,4 +113,70 @@ body * > * {
     
     max-width: 100%;
     max-height: 100%;
+}
+/*services*/
+.services{
+    background-color: #24140B;
+    height: 494px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serbox{
+    width: 1296px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sertopbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sertopbox h2{
+    font-size: 80px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.serbuttombox{
+    width:1296px;
+    height:174px;
+}
+.serbuttombox ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.serbuttombox li{
+    background-color: #ffffff;
+    width: 306px;
+    height: 174px;
+}
+.serbtboxlitop{
+    height:66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textleft{
+    width:218px;
+}
+.serbtboxlitop img{
+    width:28px;
+    height:28px;
+}
+.serbtboxlibottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:48px;
+}
+.serbtboxlibottom p{
+    width:198px;
+}
+.serbtboxlibottom img{
+    width:48px;
+    height:48px;
 }
