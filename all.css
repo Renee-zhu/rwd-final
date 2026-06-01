@@ -194,3 +194,18 @@ table {
     width:48px;
     height:48px;
 }
+.projects{
+    text-align: center;
+}
+.probox{
+    width:1296px;
+    height: 1239px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.projects ul{
+    width: 1296px;
+    height: 397px;
+}
