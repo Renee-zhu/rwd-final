@@ -227,6 +227,20 @@ table {
     height: 100%;
     position: relative;
 }
+.proliimg2{
+    background-image: url(pic/pro02.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+.proliimg3{
+    background-image: url(pic/pro03.png);
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+    position: relative;
+}
 .prolibox{
     height: 341px;
     width: 386px;
