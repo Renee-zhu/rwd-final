@@ -198,14 +198,92 @@ table {
     text-align: center;
 }
 .probox{
-    width:1296px;
-    height: 1239px;
     margin: 0 auto;
+    height:1487px;
+    width: 1296px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+.protop{
+    height: 120px;
+}
+.protop h3{
+    font-size: 80px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.probox ul{
+    height: 1239px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.projects ul{
-    width: 1296px;
-    height: 397px;
+.probox li{
+    height:397px;
+}
+.proliimg1{
+    background-image: url(pic/pro01.png);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.prolibox{
+    height: 341px;
+    width: 386px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #404040;
+}
+.proliboxp1{
+    font-size: 14px;
+}
+.proliboxp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 151px;
+}
+.proliboxp2{
+font-family: Noto Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 2%;
+text-align: center;
+vertical-align: middle;
+}
+.proliboxp3{
+font-family: Noto Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 2%;
+text-align: center;
+vertical-align: middle;
+}
+.proliboxlink{
+    width: 113px;
+    height: 48px;
+    background-color: white;
+    color:#404040 ;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.proliboxlink:hover{
+    background-color: #404040;
+    color: white;
 }
