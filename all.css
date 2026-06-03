@@ -3,66 +3,158 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /*START*/
 
-* { outline: 1px solid rgb(255, 0, 0); }
+* {
+    outline: 1px solid rgb(255, 0, 0);
+}
 
-.wrap{    
-    max-width:1296px;
+.wrap {
+    max-width: 1296px;
     margin: auto;
 }
+
 /*header*/
-.nav{
-    height:64px;
+.nav {
+    height: 64px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,59 +162,70 @@ table {
     width: 412px;
     height: 32px;
 }
-.header{
+
+.header {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.healeftbox{
-    width:480px;
+
+.healeftbox {
+    width: 480px;
     height: 376px;
 }
-.healeft{
+
+.healeft {
     width: 526px;
-    height:376px;
+    height: 376px;
 }
-.healefta{
-    display:flex;
+
+.healefta {
+    display: flex;
     flex-direction: row;
 }
-.healefta a{
-     text-decoration:none;
-     color:#494949;
-     border:1 px solid #494949;
-     padding: 12px 24px;
-     border-radius: 30px;
-     margin-right: 35px;
+
+.healefta a {
+    text-decoration: none;
+    color: #494949;
+    border: 1 px solid #494949;
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin-right: 35px;
 }
-.healefta a:hover{
+
+.healefta a:hover {
     background-color: #494949;
     color: white;
 }
-.healeft h1{
+
+.healeft h1 {
     font-size: 80px;
 }
-.hearightimg{
+
+.hearightimg {
     display: flex;
     justify-content: flex-end;
     height: 100%;
     width: 746px;
 }
-.hearightimg img{
-    
+
+.hearightimg img {
+
     max-width: 100%;
     max-height: 100%;
 }
+
 /*services*/
-.services{
+.services {
     background-color: #24140B;
     height: 494px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.serbox{
+
+.serbox {
     width: 1296px;
     height: 334px;
     display: flex;
@@ -130,118 +233,141 @@ table {
     justify-content: space-between;
     align-items: flex-start;
 }
-.sertopbox{
+
+.sertopbox {
     color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.sertopbox h2{
+
+.sertopbox h2 {
     font-size: 80px;
     font-family: 'Noto Sans', sans-serif;
 }
-.serbuttombox{
-    width:1296px;
-    height:174px;
+
+.serbuttombox {
+    width: 1296px;
+    height: 174px;
 }
-.serbuttombox ul{
+
+.serbuttombox ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.serbuttombox li{
+
+.serbuttombox li {
     background-color: #ffffff;
     width: 306px;
     height: 174px;
 }
-.serbtboxlitop{
-    height:66px;
+
+.serbtboxlitop {
+    height: 66px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 24px;
     padding-top: 24px;
 }
-.textleft{
-    width:218px;
+
+.textleft {
+    width: 218px;
 }
-.textleft p{
+
+.textleft p {
     font-size: 16px;
     line-height: 150%;
 }
-.textleft h3{
+
+.textleft h3 {
     font-size: 28px;
     line-height: 150%;
 }
-.serbtboxlitop img{
-    width:28px;
-    height:28px;
+
+.serbtboxlitop img {
+    width: 28px;
+    height: 28px;
 }
-.serbtboxlibottom{
+
+.serbtboxlibottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height:48px;
+    height: 48px;
     padding: 0px 24px;
     padding-top: 12px;
     padding-bottom: 24px;
 }
-.serbtboxlibottom p{
-    width:198px;
+
+.serbtboxlibottom p {
+    width: 198px;
     line-height: 150%;
 }
-.serbtboxlibottom img{
-    width:48px;
-    height:48px;
+
+.serbtboxlibottom img {
+    width: 48px;
+    height: 48px;
 }
-.projects{
+
+.projects {
     text-align: center;
 }
-.probox{
+
+.probox {
     margin: 0 auto;
-    height:1487px;
+    height: 1487px;
     width: 1296px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: space-between;
 }
-.protop{
+
+.protop {
     height: 120px;
 }
-.protop h3{
+
+.protop h3 {
     font-size: 80px;
     font-family: 'Noto Sans', sans-serif;
 }
-.probox ul{
+
+.probox ul {
     height: 1239px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.probox li{
-    height:397px;
+
+.probox li {
+    height: 397px;
 }
-.proliimg1{
+
+.proliimg1 {
     background-image: url(pic/pro01.png);
     background-size: cover;
     height: 100%;
     position: relative;
 }
-.proliimg2{
+
+.proliimg2 {
     background-image: url(pic/pro02.png);
     background-size: cover;
     background-position: center;
     height: 100%;
     position: relative;
 }
-.proliimg3{
+
+.proliimg3 {
     background-image: url(pic/pro03.png);
     background-size: cover;
     height: 100%;
     background-position: bottom;
     position: relative;
 }
-.prolibox{
+
+.prolibox {
     height: 341px;
     width: 386px;
     background-color: #ffffff;
@@ -253,43 +379,48 @@ table {
     justify-content: space-evenly;
     color: #404040;
 }
-.proliboxp1{
+
+.proliboxp1 {
     font-size: 14px;
 }
-.proliboxp{
+
+.proliboxp {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
     width: 151px;
 }
-.proliboxp2{
-font-family: Noto Sans;
-font-weight: 700;
-font-style: Bold;
-font-size: 24px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 2%;
-text-align: center;
-vertical-align: middle;
+
+.proliboxp2 {
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 2%;
+    text-align: center;
+    vertical-align: middle;
 }
-.proliboxp3{
-font-family: Noto Sans;
-font-weight: 500;
-font-style: Medium;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 2%;
-text-align: center;
-vertical-align: middle;
+
+.proliboxp3 {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 2%;
+    text-align: center;
+    vertical-align: middle;
 }
-.proliboxlink{
+
+.proliboxlink {
     width: 113px;
     height: 48px;
     background-color: white;
-    color:#404040 ;
+    color: #404040;
     border-radius: 30px;
     margin: 0 auto;
     display: flex;
@@ -297,11 +428,13 @@ vertical-align: middle;
     align-items: center;
     text-decoration: none;
 }
-.proliboxlink:hover{
+
+.proliboxlink:hover {
     background-color: #404040;
     color: white;
 }
-.proliboxp5{
+
+.proliboxp5 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -309,37 +442,105 @@ vertical-align: middle;
     width: 237px;
     height: 24px;
 }
-.blogs{
+
+.blogs {
     height: 749px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.blotop{
+
+.blotop {
     height: 120px;
     width: 1296px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.blobuttom{
+
+.blobuttom {
     width: 1296px;
-    height: 429px;
+    padding-top: 30px;
 }
-.boltoptext{
+
+.boltoptext {
     width: 1159px;
     height: 120px;
     color: #404040;
     font-family: 'Noto Sans', sans-serif;
 }
-.boltoptext h3{
-font-family: Noto Sans;
-font-weight: 700;
-font-style: Bold;
-font-size: 80px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 2%;
-vertical-align: middle;
+
+.boltoptext h3 {
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 80px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+.blobuttom ul {
+    width: 1296px;
+    height: 429px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blobuttom li {
+    width: 416px;
+    height: 429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blolitop {
+    display: flex;
+    flex-direction: row;
+    width: 416;
+    height: 24;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 8px;
+}
+
+.blolicenter p {
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+.bollibuttom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blorightbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.blorightbox img{
+    width: 20px;
+    height: 20px;
+}
+.bolSmallbox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blobuttomlibox{
+    width: 416px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
