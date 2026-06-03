@@ -544,3 +544,25 @@ table {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.subscription{
+    height:440px;
+    background-image: url(pic/subscription-bg.png);
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    justify-content: center;
+}
+.subbox{
+    width: 1296px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+.subbox img{
+    width: 526px;
+}
+.subboxright{
+    width: 746px;
+
+}
