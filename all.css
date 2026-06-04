@@ -517,27 +517,32 @@ table {
     letter-spacing: 2%;
     vertical-align: middle;
 }
-.bollibuttom{
+
+.bollibuttom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.blorightbox{
+
+.blorightbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.blorightbox img{
+
+.blorightbox img {
     width: 20px;
     height: 20px;
 }
-.bolSmallbox1{
+
+.bolSmallbox1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.blobuttomlibox{
+
+.blobuttomlibox {
     width: 416px;
     height: 177px;
     display: flex;
@@ -545,24 +550,88 @@ table {
     justify-content: space-between;
 }
 
-.subscription{
-    height:440px;
+.subscription {
+    height: 440px;
     background-image: url(pic/subscription-bg.png);
     background-size: cover;
     background-position: center;
-     display: flex;
+    display: flex;
     justify-content: center;
+    filter: brightness(50%) contrast(110%)
 }
-.subbox{
+
+.subbox {
     width: 1296px;
     height: 440px;
     display: flex;
     justify-content: space-between;
 }
-.subbox img{
+
+.subbox img {
     width: 526px;
 }
-.subboxright{
-    width: 746px;
 
+.subboxright {
+    width: 746px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtextp {
+    width: 666px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.subinput {
+    width: 666px;
+    height: 64px;
+}
+
+.subtext h3 {
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 80px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: white;
+}
+
+.subtext p {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    color: white;
+}
+
+.fatermail {
+    width: 666px;
+    height: 64px;
+    color: white;
+    border-radius: 50px 50px;
+    background-color: #ffffff00;
+    position: relative;
+    border-color: white;
+}
+
+.son {
+    width: 81px;
+    height: 48px;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
