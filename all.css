@@ -552,7 +552,7 @@ table {
 
 .subscription {
     height: 440px;
-    background-image: url(pic/subscription-bg.png);
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/015dd339d657d3c861618d8d633f920c6b6da4f0/2026-web-camp/mobile/subscription_bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
