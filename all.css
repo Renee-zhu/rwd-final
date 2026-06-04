@@ -345,14 +345,14 @@ table {
 }
 
 .proliimg1 {
-    background-image: url(pic/pro01.png);
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/015dd339d657d3c861618d8d633f920c6b6da4f0/2026-web-camp/project_1.png);
     background-size: cover;
     height: 100%;
     position: relative;
 }
 
 .proliimg2 {
-    background-image: url(pic/pro02.png);
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/015dd339d657d3c861618d8d633f920c6b6da4f0/2026-web-camp/project_2.png);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -360,7 +360,7 @@ table {
 }
 
 .proliimg3 {
-    background-image: url(pic/pro03.png);
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/015dd339d657d3c861618d8d633f920c6b6da4f0/2026-web-camp/project_3.png);
     background-size: cover;
     height: 100%;
     background-position: bottom;
