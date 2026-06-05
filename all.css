@@ -552,12 +552,12 @@ table {
 
 .subscription {
     height: 440px;
-    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/015dd339d657d3c861618d8d633f920c6b6da4f0/2026-web-camp/mobile/subscription_bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/015dd339d657d3c861618d8d633f920c6b6da4f0/2026-web-camp/mobile/subscription_bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    filter: brightness(50%) contrast(110%)
+
 }
 
 .subbox {
@@ -588,11 +588,6 @@ table {
     color: white;
 }
 
-.subinput {
-    width: 666px;
-    height: 64px;
-}
-
 .subtext h3 {
     font-family: Noto Sans;
     font-weight: 700;
@@ -618,20 +613,24 @@ table {
 }
 
 .fatermail {
-    width: 666px;
-    height: 64px;
     color: white;
-    border-radius: 50px 50px;
+    border-radius: 40px 40px;
     background-color: #ffffff00;
-    position: relative;
     border-color: white;
+    padding: 24px 0;
+    padding-left: 24px;
+    padding-right: 476px;
 }
-
+.subinput {
+    position: relative;
+}
 .son {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.son input {
     width: 81px;
     height: 48px;
     border-radius: 50px;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
