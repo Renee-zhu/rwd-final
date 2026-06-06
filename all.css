@@ -316,6 +316,7 @@ table {
 }
 
 .probox {
+    padding:80px 0px;
     margin: 0 auto;
     height: 1487px;
     width: 1296px;
@@ -378,6 +379,8 @@ table {
     flex-direction: column;
     justify-content: space-evenly;
     color: #404040;
+    padding:40px 40px;
+    box-sizing: border-box;
 }
 
 .proliboxp1 {
@@ -525,6 +528,7 @@ table {
 }
 
 .blorightbox {
+    width: 185px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -534,6 +538,7 @@ table {
 .blorightbox img {
     width: 20px;
     height: 20px;
+    padding-right: 10px;
 }
 
 .bolSmallbox1 {
