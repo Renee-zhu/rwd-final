@@ -140,11 +140,13 @@ table {
     outline: 1px solid rgb(255, 0, 0);
 }*/
 
+.body{
+    position: relative;
+}
 .wrap {
     max-width: 1296px;
     margin: auto;
 }
-
 /*header*/
 .nav {
     height: 64px;
@@ -169,7 +171,46 @@ table {
     justify-content: flex-end;
     align-items: center;
 }
-
+.header .heapic1{ 
+    position: absolute;
+    top: 150px;
+    left: 700px ;
+}
+.header .heapic2{
+    position: absolute;
+    top: 100px;
+    left:65px ;
+    width: 120px;
+    height: 120px;
+}
+.header .heapic3{
+    position: absolute;
+    top: 145px;
+    left:175px ;
+    width: 313px;
+    height: 92px;
+}
+.header .heapic6{ 
+    position: absolute;
+    width: 160px;
+    height: 137px;
+    top: 645px;
+    left: 1450px ;
+}
+.header .heapic4{ 
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 280px;
+    left: 1550px ;
+}
+.header .heapic5{ 
+    position: absolute;
+    width: 80px;
+    height: 140px;
+    top: 600px;
+    left: 625px ;
+}
 .healeftbox {
     width: 480px;
     height: 376px;
