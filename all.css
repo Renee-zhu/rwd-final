@@ -136,9 +136,9 @@ table {
 
 /*START*/
 
-* {
+/** {
     outline: 1px solid rgb(255, 0, 0);
-}
+}*/
 
 .wrap {
     max-width: 1296px;
@@ -621,20 +621,128 @@ table {
     padding-left: 24px;
     padding-right: 476px;
 }
+
 .subinput {
     position: relative;
 }
+
 .son {
     position: absolute;
     right: 10px;
     top: 10px;
 }
+
 .son input {
     width: 81px;
     height: 48px;
     border-radius: 50px;
 }
-.footer{
-    height:544px;
+
+.footer {
+    height: 544px;
     background-color: #24140B;
+    display: flex;
+    justify-content: center;
+}
+
+.foobox {
+    width: 1296px;
+    height: 384px;
+    padding: 80px 312px;
+    display: flex;
+}
+
+.foobox p {
+    color: white;
+}
+
+.fooleftbox {
+    width: 526px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foorightbox {
+    width: 746px;
+    height: 384px;
+}
+
+.footoptext {
+    width: 526px;
+    height: 120px;
+}
+
+.footoptext h3 {
+    color: white;
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 80px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+.foobottomtext {
+    width: 526px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.foomail {
+    display: flex;
+    padding-top: 20px;
+}
+
+.foocentertext {
+    display: flex;
+    flex-direction: column;
+}
+
+.foomail img {
+    margin-right: 10px;
+}
+
+.fooicon img {
+    margin-right: 15px;
+}
+
+.footype {
+    color: white;
+    border-radius: 40px 40px;
+    background-color: #ffffff00;
+    border-color: white;
+    padding: 24px 0;
+    padding-left: 24px;
+}
+
+.foorightbox {
+    width: 666px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fooinputbox .fri {
+    padding-right: 120px;
+}
+.foorightbox .sce{
+    width: 638px;
+}
+.fooinputbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foorightbox .big{
+    padding-bottom:88px;
+}
+.footypesmi{
+    padding: 16px 318px;
+    border-radius: 30px;
 }
