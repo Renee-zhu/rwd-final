@@ -136,9 +136,9 @@ table {
 
 /*START*/
 
-/** {
+* {
     outline: 1px solid rgb(255, 0, 0);
-}*/
+}
 
 .body{
     position: relative;
@@ -207,13 +207,21 @@ table {
 .header .heapic5{ 
     position: absolute;
     width: 80px;
-    height: 140px;
-    top: 600px;
-    left: 625px ;
+    height: 80px;
+    top: 630px;
+    left: 640px ;
 }
+.header .heapic7{ 
+    position: absolute;
+    width: 180px;
+    height: 119px;
+    top: 680px;
+    left: 470px ;
+    }
 .healeftbox {
     width: 480px;
     height: 376px;
+    padding-right:20px;
 }
 
 .healeft {
