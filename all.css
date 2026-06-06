@@ -156,13 +156,22 @@ table {
     align-items: center;
 }
 
-.nav ul {
+.navlist{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 412px;
     height: 32px;
+}
+.navlist a{
+    text-decoration: none;
+    color:#404040;
+    padding:8px 12px;
+}
+.navlist a:hover{
+    background-color: #404040;
+    color: white;
 }
 
 .header {
@@ -171,53 +180,7 @@ table {
     justify-content: flex-end;
     align-items: center;
 }
-.header .heapic1{ 
-    position: absolute;
-    top: 150px;
-    left: 700px ;
-}
-.header .heapic2{
-    position: absolute;
-    top: 100px;
-    left:65px ;
-    width: 120px;
-    height: 120px;
-}
-.header .heapic3{
-    position: absolute;
-    top: 145px;
-    left:175px ;
-    width: 313px;
-    height: 92px;
-}
-.header .heapic6{ 
-    position: absolute;
-    width: 160px;
-    height: 137px;
-    top: 645px;
-    left: 1450px ;
-}
-.header .heapic4{ 
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    top: 280px;
-    left: 1550px ;
-}
-.header .heapic5{ 
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 630px;
-    left: 640px ;
-}
-.header .heapic7{ 
-    position: absolute;
-    width: 180px;
-    height: 119px;
-    top: 680px;
-    left: 470px ;
-    }
+
 .healeftbox {
     width: 480px;
     height: 376px;
@@ -449,7 +412,6 @@ table {
     font-weight: 700;
     font-style: Bold;
     font-size: 24px;
-    leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 2%;
     text-align: center;
@@ -461,7 +423,6 @@ table {
     font-weight: 500;
     font-style: Medium;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 2%;
     text-align: center;
@@ -528,7 +489,6 @@ table {
     font-weight: 700;
     font-style: Bold;
     font-size: 80px;
-    leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 2%;
     vertical-align: middle;
@@ -554,7 +514,6 @@ table {
     flex-direction: row;
     width: 416;
     height: 24;
-    angle: 0 deg;
     opacity: 1;
     gap: 8px;
 }
@@ -564,7 +523,6 @@ table {
     font-weight: 700;
     font-style: Bold;
     font-size: 24px;
-    leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 2%;
     vertical-align: middle;
@@ -647,7 +605,6 @@ table {
     font-weight: 700;
     font-style: Bold;
     font-size: 80px;
-    leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 2%;
     vertical-align: middle;
@@ -659,7 +616,6 @@ table {
     font-weight: 500;
     font-style: Medium;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 2%;
     vertical-align: middle;
@@ -678,15 +634,16 @@ table {
 
 .subinput {
     position: relative;
+    padding-top:15px;
 }
 
 .son {
     position: absolute;
     right: 10px;
-    top: 10px;
+    bottom: 10px;
 }
 
-.son input {
+.son button {
     width: 81px;
     height: 48px;
     border-radius: 50px;
@@ -734,7 +691,6 @@ table {
     font-weight: 700;
     font-style: Bold;
     font-size: 80px;
-    leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 2%;
     vertical-align: middle;
@@ -795,6 +751,7 @@ table {
 }
 .foorightbox .big{
     padding-bottom:88px;
+    resize: none
 }
 .footypesmi{
     padding: 16px 318px;
